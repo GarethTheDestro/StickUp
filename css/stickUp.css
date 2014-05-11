@@ -1,0 +1,38 @@
+/*
+ * Stick Up!
+ * www.stickup.gary-wilkerson.com  
+ * By: Gary Wilkerson | www.gary-wilkerson.com  
+ * Free to use under the MIT license.  
+ * http://www.opensource.org/licenses/mit-license.php
+*/
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:#555555;
+	border-bottom:1px dotted #555555;
+}
+
+#panel{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:rgba(100, 100, 100, 0.5);
+	height:100px;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border-bottom:10px solid #000000;
+}
+
+#panel img{
+	padding-top:25px;
+}
+
+#header{
+	text-align:center;
+}
